@@ -1,0 +1,48 @@
+/* Font declaration */
+
+@font-face {
+    font-family: dodger-Condensed;
+    src: url("../Assets//Fonts//Dodger-Condensed.otf");
+  }
+  
+  body {
+    margin: 0;
+    font-family: dodger-Condensed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 4vh;
+    color: aliceblue;
+  }
+  
+  span {
+    font-size: 6vh;
+    padding: 0 1vw;
+    text-decoration: underline;
+  }
+  
+  #car {
+    height: 12vh;
+    width: 18vh;
+  }
+  
+  canvas {
+    border: 5px double rgba(255, 255, 255, 0.817);
+    display: block;
+    margin: 0 auto;
+    cursor: grabbing;
+  }
+  
+  p {
+    color: rgb(241, 233, 13);
+    text-align: left;
+    font-size: 2vh;
+  }
+  
